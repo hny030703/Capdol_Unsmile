@@ -1,5 +1,6 @@
 # Capdol_Unsmile
 
+```c
 # 토크나이저 및 모델 불러오기 위한 import 작업
 from transformers import BertForSequenceClassification, BertTokenizer
 import torch
@@ -18,3 +19,4 @@ model = BertForSequenceClassification.from_pretrained(model_name, num_labels=len
 # 모델 학습 준비
 device = torch.device('cuda') if torch.cuda.is_available() else torch.device('cpu')
 model.to(device)
+```
