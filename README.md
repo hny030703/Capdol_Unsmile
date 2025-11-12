@@ -1,4 +1,6 @@
 # Capdol_Unsmile
+https://uiandwe.tistory.com/1395
+해당 블로그를 참고하여 언어폭력을 예방하기 위한 모델을 제작하는 것이 목표이다.
 
 ```c
 # 토크나이저 및 모델 불러오기 위한 import 작업
